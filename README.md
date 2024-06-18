@@ -44,7 +44,8 @@ Explains different types of testing (manual + automated) for Terraform modules a
 
 Covers how teams can work together with Terraform and how to set up CI/CD pipelines to keep infrastructure environments up to date.
 
-for Reverse Engineering: https://medium.com/@xpiotrkleban/reverse-engineering-existing-infrastructure-to-terraform-hcl-files-453420059ef9 
+for **Reverse Engineering**: https://medium.com/@xpiotrkleban/reverse-engineering-existing-infrastructure-to-terraform-hcl-files-453420059ef9 
+https://medium.com/developing-koan/from-pebbles-to-brickworks-a-story-of-cloud-infrastructure-evolved-1c9ca5495cdc
 
 Terraform only tracks in its state the objects that it created, or that it was explicitly asked to “adopt” using the import features. If anyone has created anything entirely new since the last use of Terraform then Terraform will have no awareness of it at all, and so won’t know to track it unless you explicitly import it.
 
