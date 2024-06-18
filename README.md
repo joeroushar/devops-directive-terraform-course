@@ -43,3 +43,5 @@ Explains different types of testing (manual + automated) for Terraform modules a
 ## 09 - Developer Workflows + CI/CD
 
 Covers how teams can work together with Terraform and how to set up CI/CD pipelines to keep infrastructure environments up to date.
+
+for Reverse Engineering: https://medium.com/@xpiotrkleban/reverse-engineering-existing-infrastructure-to-terraform-hcl-files-453420059ef9 
